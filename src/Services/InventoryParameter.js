@@ -3,8 +3,7 @@ import axios from "axios";
 
 const InventoryParameter=()=>{
 
-  const [availableItems, setAvailableItems] = useState(null);
-  
+  const [availableItems, setAvailableItems] = useState(null);  
 
   useEffect(()=>{
     axios.get("http://35.131.11.146/TKSE.CoralID.API/InventoryParameters/Availability")
@@ -17,5 +16,4 @@ const InventoryParameter=()=>{
     <span>{availableItems}</span>
     );
 }
-
 export default InventoryParameter;

@@ -24,17 +24,25 @@ function BookingTable(){
         ));
     };
 
-    return(
-        <table className ="table">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Availability</th>
-                    <th>DateModified</th>
-                </tr>
-            </thead>
-            <tbody>{renderTableData()}</tbody>
-        </table>
+    return (
+        <div>
+            <table className="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Availability</th>
+                        <th>DateModified</th>
+                    </tr>
+                </thead>
+                <tbody>{renderTableData()}</tbody>
+            </table>
+            <div>
+                {/* <h1>Assign To Slots</h1> */}
+            
+            </div>
+        </div>
+        
+
     );
 }
 

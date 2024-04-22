@@ -3,6 +3,7 @@ p.title {
     font-family: Montserrat;
     font-weight: bold;
     margin-block-end: auto;
+    margin-block-start: 10px;
 }
 
 p.description {    

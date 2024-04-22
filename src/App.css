@@ -2,3 +2,20 @@
     width: 30vW;
     height: 30vh;
 }
+p.title {    
+    font-size: 36px;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-block-end: auto;
+}
+
+p.description {    
+    font-size: 12px;
+    font-family: Montserrat;    
+}
+
+p.subtitle, .subtitle {    
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: bold;   
+}
